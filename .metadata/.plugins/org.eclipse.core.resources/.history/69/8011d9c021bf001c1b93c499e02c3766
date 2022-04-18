@@ -1,0 +1,32 @@
+package pkg1_write_file;
+
+import java.io.BufferedWriter;
+import java.io.FileWriter;
+import java.util.Scanner;
+
+public class writeAnagraficaFile {
+
+	public static void main(String[] args) {
+		
+		Scanner sc = new Scanner(System.in);		
+		String[] arr = new String[3];
+		String str;
+		String anagraficaFile = "Anagrafica.txt";
+		
+		System.out.print("Type your name: \n");
+		str = sc.nextLine();
+		System.out.print("Type your surname: \n");
+		str = sc.nextLine();
+		System.out.print("Type your age: \n");
+		str = sc.nextLine();
+		
+		try (BufferedWriter out = new BufferedWriter(new FileWriter(anagraficaFile))) {
+			out.write(str);
+			
+		} catch (Exception e) {
+			// TODO: handle exception
+		}
+
+	}
+
+}

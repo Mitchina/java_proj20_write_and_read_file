@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;Write_and_read_anagrafica_file/Anagrafica.txt&apos; to &apos;registry.txt&apos;" description="Rename resource &apos;Anagrafica.txt&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="Anagrafica.txt" name="registry.txt" stamp="1650294239700" updateReferences="true"/>
+</session>

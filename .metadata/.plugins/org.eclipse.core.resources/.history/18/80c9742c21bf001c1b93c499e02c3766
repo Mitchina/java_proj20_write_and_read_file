@@ -1,0 +1,22 @@
+package pkg1_write_file;
+
+import java.util.Scanner;
+
+public class writeAnagraficaFile {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		String name;
+		String surname;
+		int age;
+		
+		System.out.print("Type your name: \n");
+		name = sc.nextLine();
+		System.out.print("Type your surname: \n");
+		surname = sc.nextLine();
+		System.out.print("Type your age: \n");
+		age = sc.nextInt();
+
+	}
+
+}
